@@ -22,3 +22,61 @@
     </fieldset>
     <input type="submit" value="Submit">
   </form> 
+
+
+
+
+
+<!--TABELLA-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Table</title>
+    <style>
+        th,td,table{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <h1>Episodi</h1>
+    <table>
+        <caption>Alcuni episodi di Friends</caption>
+        <thead>
+            <tr>
+                <th id = "Season" rowspan="2" scope ="rowgroup">Stagione</th>
+                <th id = "Title" colspan="2" scope="colgroup">Titolo Episodio</th>
+            </tr>
+            <tr>
+                <th scope = "col" id = "Title_it" headers="Title">Titolo in Italiano</th>
+                <th scope = "col" id = "Title_or" headers="Title">Titolo Originale</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope ="rowgroup" id = "Before" rowspan="2" headers="Season">Prima</th>
+                <td headers="Title Title_it Before">A lume di candela</td>
+                <td headers="Title Title_or Before">The One with the Blackout</td>
+            </tr>
+            <tr>
+                <td headers="Title Title_it Before">Uno strano ospite</td>
+                <td headers="Title Title_or Before">The one with the Stoned Guy</td>
+            </tr>
+            <tr>
+                <th scope = "rowgroup" id = "Second" rowspan="2" headers="Season">Seconda</th>
+                <td headers="Title Title_it Second">I due bulli</td>
+                <td headers="Title Title_or Second">The One with the Bullies</td>
+            </tr>
+            <tr>
+                <td headers="Title Title_it Second">Doppia festa per Rachel</td>
+                <td headers="Title Title_or Second">The One with the Two Parties</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</section>
+</body>
+</html> 
