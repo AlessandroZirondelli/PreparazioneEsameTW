@@ -12,6 +12,8 @@ nav{
 p{
     text-align: center;
     font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; /*Grossetto*/
     padding: 10px 5px 2px 2px; /*padding-top padding-rigth  padding-bottom paddin-left*/
     margin: 10px 5px 5px 5px; /*margin-top margin-rigth margin-bottom margin-left*/
 }
@@ -22,7 +24,7 @@ nav li{
 }
 
 nav a:hover{
-    
+
 }
 
 
