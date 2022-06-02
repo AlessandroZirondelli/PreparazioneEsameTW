@@ -21,4 +21,19 @@ $(document).ready(function(){
 		$("main").append("<p>Errore nel caricamento dei dati</p>");
 	});
 
+
+
+	//Utilizzo obbligato di nth-child() per selezionare un elemento nella tabella
+	$("button.insert").click(function(){
+		valore = $("input").val();
+		console.log(valore);
+		colonna = valore % 10;
+		console.log("colonna " + colonna);
+		riga = (valore - colonna) / 10;
+		console.log("riga " + riga);
+		colonna++;
+		riga++;
+		$("table tr:nth-child("+riga+") td:nth-child("+colonna+")").css("background","red");		
+	});
+
 });
