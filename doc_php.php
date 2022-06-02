@@ -35,6 +35,7 @@
     
     $stringa = implode("-",$numeriElaborati); // crea una stringa conteneti i valori delle celle dell'array separato dal separatore indicato
 
+    strlen($stringa); // lunghezza stringa
 
 
 
