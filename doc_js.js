@@ -35,5 +35,5 @@ $(document).ready(function(){
 		riga++;
 		$("table tr:nth-child("+riga+") td:nth-child("+colonna+")").css("background","red");		
 	});
-
+	$("tr").css("background-color","internal");//Colora tutti i tag tr con il colore di defaukt
 });
