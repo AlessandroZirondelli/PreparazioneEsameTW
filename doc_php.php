@@ -15,6 +15,13 @@
     }
 
 
+    //Query insert
+    $query = "INSERT INTO dati (valore,chiave) VALUES (?,?)";
+        if($stmt=$this->conn->prepare($query)){
+            $stmt->bind_param('ss',$value,$key);
+            $stmt->execute();
+    }
+
     // Query select
     $query = "SELECT * FROM setDB ";
     if($stmt = $conn->prepare($query)){
@@ -27,6 +34,16 @@
         return ;
     }
 
+    //Query update
+    $query = "UPDATE dati SET valore=? WHERE chiave=?";
+    if($stmt = $this->conn->prepare($query)){
+        $stmt->bind_param('ss',$value,$key);
+        $stmt->execute();
+    }else{
+         echo "Errore aggiornamento";
+         return false ;
+    }
+
 
     /*  Operazioni con stringhe */
     $data;//stringa contentente valori numerici in questa forma 23-10-45
@@ -37,8 +54,10 @@
 
     strlen($stringa); // lunghezza stringa
 
-
-
+    
+    //Cookie
+    setcookie("pair",serialize($pair),time() + (86400 * 30)); //nome cookie, stringa con cui si serializza l'oggetto, scadenza cookie di 1 mese
+    $pair = unserialize($_COOKIE["pair"]);// leggo i dati dal cookie
 
 
 
