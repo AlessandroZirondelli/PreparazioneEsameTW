@@ -6,10 +6,11 @@ nav{
     background-color: white;
     color: black;
     border-radius: 10px; /* Rende tondo lo spigolo del bordo*/
-
+    box-shadow: 5px 5px blue; /*ombra div*/
     border: 2px solid orange; /*Bordo spesso 2 px arancione*/
 }
 p{
+    text-shadow: 2px 2px 5px blue; /*Sfocatura testo*/
     text-align: center;
     font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
