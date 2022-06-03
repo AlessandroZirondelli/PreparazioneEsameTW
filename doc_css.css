@@ -16,13 +16,17 @@ p{
     font-weight: bold; /*Grossetto*/
     padding: 10px 5px 2px 2px; /*padding-top padding-rigth  padding-bottom paddin-left*/
     margin: 10px 5px 5px 5px; /*margin-top margin-rigth margin-bottom margin-left*/
+    font-style: italic; /*Inclina le scritte*/
 }
 nav li{
     list-style-type: square; /*Modifica la grafica dei punti della lista*/
     line-height: 2em; /*Interlinea*/
 
 }
-
+table{
+    border-spacing: 1px; /*specifica lo spazio tra le celle della tabella*/
+    border-collapse: separate; /*può essere "separate" o "collapse" ed aggiunge o toglie il bordo*/
+}
 nav a:hover{
 
 }
