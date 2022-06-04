@@ -36,4 +36,7 @@ $(document).ready(function(){
 		$("table tr:nth-child("+riga+") td:nth-child("+colonna+")").css("background","red");		
 	});
 	$("tr").css("background-color","internal");//Colora tutti i tag tr con il colore di defaukt
+
+	$("selettore").index(); //Ritorna la posizione del selettore rispetto al padre
+	$("selettore").index("#elemeto"); //Ritorna la posizione del #elemento rispetto a tutti gli elementi selezionati dal selettore
 });
