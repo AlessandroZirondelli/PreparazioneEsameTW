@@ -44,6 +44,21 @@
          return false ;
     }
 
+    //Query select max
+  
+        $query = "SELECT MAX(id) AS maxid FROM insiemi";
+        if($stmt = $this-> conn->prepare($query)){
+            echo "entrato";
+            $stmt->execute();
+            $result = $stmt->get_result();
+            $res = $result->fetch_all(MYSQLI_ASSOC);
+            return $res[0]["maxid"];
+        }else{
+            echo "Errore";
+            return false;
+        } 
+    
+
 
     /*  Operazioni con stringhe */
     $data;//stringa contentente valori numerici in questa forma 23-10-45
@@ -54,6 +69,9 @@
 
     strlen($stringa); // lunghezza stringa
 
+    //Array
+    $intersection = array_intersect($vectSetA,$vectSetB); //intersezione dei due array
+
     
     //Cookie
     setcookie("pair",serialize($pair),time() + (86400 * 30)); //nome cookie, stringa con cui si serializza l'oggetto, scadenza cookie di 1 mese
@@ -61,7 +79,5 @@
 
 
 
-
-
-
+    
 ?>
