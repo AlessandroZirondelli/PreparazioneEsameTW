@@ -76,7 +76,10 @@
     //Cookie
     setcookie("pair",serialize($pair),time() + (86400 * 30)); //nome cookie, stringa con cui si serializza l'oggetto, scadenza cookie di 1 mese
     $pair = unserialize($_COOKIE["pair"]);// leggo i dati dal cookie
-
+    
+    //json
+    $age = array("Peter"=>35, "Ben"=>37, "Joe"=>43);
+    echo json_encode($age);
 
 
     
