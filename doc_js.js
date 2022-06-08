@@ -39,4 +39,13 @@ $(document).ready(function(){
 
 	$("selettore").index(); //Ritorna la posizione del selettore rispetto al padre
 	$("selettore").index("#elemeto"); //Ritorna la posizione del #elemento rispetto a tutti gli elementi selezionati dal selettore
+
+
+	$("body>div>div:eq("+value+")").length; // restituisce quanti elementi sono stati selezionati
+
+	parseInt($(this).val()); // converte in intero
+
+
+
+
 });
