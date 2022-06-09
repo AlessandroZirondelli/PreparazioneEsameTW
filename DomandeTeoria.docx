@@ -1,3 +1,69 @@
 Descrivere brevemente le principali novità introdotte da HTML5:
 
 Descrivere brevemente le principali novità introdotte dalla versione 3 dei fogli di stile CSS:
+
+Descrivere le principali differenze tra progressive enhancement e graceful degradation:
+
+Descrivere le principali differenze tra usability e user experience:
+
+Descrivere cosa si intende in ambito Web con usabilità e cosa con accessibilità, sottolineando le differenze:
+
+Descrivere brevemente le principali novità introdotte da CSS3
+
+Descrivere brevemente le principali novità introdotte dalla versione 3 dei fogli di stile CSS:
+
+
+Descrivere brevemente le metodologie di codifica dei colori nelle pagine Web e nei fogli di stile CSS:
+
+Descrivere brevemente le metodologie di codifica dei caratteri nelle pagine Web:
+
+Data la form presente nello screenshot qui di seguito, presentare i principali problemi di accessibilità che potrebbero essere presenti e le strategie per creare un codice accessibile.
+(Form con due input text, 3 radio button, 1 bottone submit e 1 bottone cancel)
+
+Data la form presente nello screenshot qui di seguito, presentare i principali problemi di accessibilità che potrebbero essere presenti e le strategie per creare un codice accessibile
+(Form con due input text, 1 input date, 3 radio button, 1 bottone submit e 1 bottone cancel)
+
+Data la seguente immagine, discutere i principali problemi di accessibilità che derivano dalla sua presenza in una pagina Web e le strategie per creare un codice accessibile a supporto degli utenti con disabilità visive. 
+Descrivere le principali differenze tra le WCAG 2.0 e i requisiti definiti nell’ambito della Legge Stanca (L. 4/2004): 
+
+Dare una definizione di user experience e descrivere un caso di design centrato sull’utente.
+
+Descrivere brevemente le principali differenze e analogie tra i solution stack LAMP e MEAN:
+
+Descrivere brevemente che cosa si intende per Personas e Scenarios nel contesto della User eXperience:
+
+Descrivere brevemente che cosa si intende per Focus Group nel contesto della User eXperience:
+
+Descrivere brevemente i passaggi e gli scambi di comunicazione che avvengono tra browser e server Web dal momento in cui viene digitato o cliccato un indirizzo Web al momento in cui la corrispondente pagina Web viene renderizzata dal browser.
+
+Descrivere brevemente il concetto di “cascata” nei fogli di stile e definire come si applica e come vengono gestiti eventuali conflitti con fogli di stile inline, fogli di stile interni e fogli di stile esterni.
+
+Descrivere come è possibile scambiare i valori delle variabili tra Javascript e Php.
+
+Definire personas e target users e spiegarne le differenze.
+
+Illustrare le differenze, i vantaggi e gli svantaggi di fogli di stile esterni, interni e inline.
+
+Descrivere brevemente le metodologie di codifica dei caratteri nelle pagine Web.
+
+Descrivere tutte le tecniche/modalità/crismi, dal punto di vista della sicurezza, in modo che la trasmissione di dati sensibili dal browser al server sia "sicura".
+
+Descrivere le principali differenze tra gli approcci progressive enhancement e graceful degradation.
+
+Descrivere brevemente comporta il fatto che http sia stateless e come si supera:
+
+Descrivere le principali differenze tra i metodi get e post:
+
+Elencare e descrivere brevemente i principi specificati nelle WCAG:
+
+Elencare e descrivere brevemente i livelli di accessibilità specificati nelle WCAG:
+
+Descrivere brevemente le principali differenze tra markup e metamarkup
+
+Descrivere brevemente le metodologie di codifica dei colori nelle pagine Web e nei fogli di stile CSS:
+
+Elencare le principali differenze tra l’uso delle variabili in PHP e in Javascript, confrontando aspetti quali la gestione dei tipi o lo scope. Verranno valutate solo argomentazioni di tipo comparativo.
+
+Descrivere brevemente i passaggi e gli scambi di comunicazione che avvengono tra browser e server Web dal momento in cui viene digitato o cliccato un indirizzo Web al momento in cui la corrispondente pagina Web viene renderizzata dal browser.
+
+Descrivere brevemente il concetto di “cascata” nei fogli di stile e definire come si applica e come vengono gestiti eventuali conflitti con fogli di stile inline, fogli di stile interni e fogli di stile esterni.

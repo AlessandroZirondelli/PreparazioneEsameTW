@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	//LETTURA
 	$.getJSON( "data.json", function( data ) {
+		//questa parte qui viene eseguita solo in caso tutto va bene
 		code = "";
 		for(i = 0; i < data.length; i++){
 			code += "<div><a href='#'>Elemento "+(i+1)+"</a><ul>";
