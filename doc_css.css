@@ -34,3 +34,18 @@ nav a:hover{
 }
 
 
+@keyframes animate {
+    from {background-color: red;color:white;} 
+    to {background-color: green;color:black}
+}
+input[type=submit]:hover{
+    animation-name: animate; /*Nome animazione*/
+    animation-duration: 3s; /*Durata animazione*/
+}
+input{
+    transform: rotate(10deg); /*Ruota di 10 gradi tutti gli input*/
+   
+}
+h1{
+    text-decoration: line-through; /*Linea che passa in mezzo al testo (effetto cancellato)*/
+}
