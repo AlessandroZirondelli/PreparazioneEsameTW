@@ -10,6 +10,16 @@ $(document).ready(function(){
 			});
 			code += "</ul></div>";
 		}
+
+		/* Oppure si può ciclare con un doppio $.each, invece che con un for e $.each
+		$.each(data, function(i,field){ //per ogni oggetto json 
+			console.log(i+""+field);
+            $.each(field,function(key,value){ //per ogni campo
+                   console.log(key+value); 
+            });
+		});*/
+
+
 		
 		$("main").append(code);
 	}).done(function() {
@@ -46,6 +56,7 @@ $(document).ready(function(){
 
 	parseInt($(this).val()); // converte in intero
 
+	$("span").closest("ul"); //restituisce l'antenato ul più vicino a span
 
 
 
